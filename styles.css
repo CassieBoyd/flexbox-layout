@@ -1,7 +1,10 @@
+/* Align title and create spacing underneath */
 .pageHeader {
    text-align: center;
+   margin-bottom: 20px;
 }
 
+/* Make list class a flex container */
 .list {
     display: flex;
     flex-wrap: wrap;
@@ -10,6 +13,9 @@
     align-content: center;
 }
 
-.shop {
-    flex-basis: 33%;
+/* Positioning of flex items */
+.list .shop {
+    display: flex;
+    justify-content: center;
+    flex-basis: 33%
 }
